@@ -5,8 +5,8 @@ from django.views.generic.edit import (
     DeleteView
 )
 from django.contrib.auth.mixins import (
-     LoginRequiredMixin,
-     UserPassesTestMixin
+LoginRequiredMixin,
+UserPassesTestMixin
 )
 from django.urls import reverse_lazy
 from .models import Post
